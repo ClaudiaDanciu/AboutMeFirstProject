@@ -1,0 +1,102 @@
+/* Global Styles 
+-------------------*/
+
+/* apply a natural box layout to all elements,  but allowing components to change */
+
+body{
+font-family: 'Open Sans', sans-serif;
+margin: 0;
+}
+h1, h2 {
+    font-family: 'Caveat', cursive;  
+    font-weight: 400;
+}
+h1 {
+    font-size:80px;
+}
+h2 {
+    font-size: 40px;
+    margin-top: 0;
+}
+a{
+    color : #FFFFFF;
+}
+a:hover{
+  text-decoration: none;  
+}
+
+.content-wrap { 
+max-width:950px;
+margin: 0 auto;
+padding: 50px;
+overflow: auto;
+
+}
+
+
+.col-narrow {
+    width: 35%;
+    float : left;
+    min-height: 80px;
+   
+    font-size: 14px;
+}
+.col-wide {
+    width: 60%;
+    float:right;
+    padding-left: 20px;
+    
+}
+#job{
+    display: inline-block;
+}
+
+/* Header and Footer
+---------------------*/
+header, footer {
+    background: #0E103D ;
+    color: #FFFFFF; 
+    
+}
+/*header */
+
+
+header h1, header h2 {
+    color: #69306D;
+    margin: 0;
+}
+.profile-img{
+  border-radius:40%;
+  width: 150px;
+  padding-top: 10%;
+ 
+}
+
+
+/*footer */
+footer {
+    text-align: center;
+    
+}
+.contact-info a{
+   
+    padding: 10px;
+    display: inline-block;
+}
+
+
+/* Work Experience
+---------------------*/
+.work{
+    background:#69306D ;
+    color: #FFFFFF;
+}
+
+
+/* Education
+---------------------*/
+.education {
+    background: #702632;
+    color: #080705;
+}
+
